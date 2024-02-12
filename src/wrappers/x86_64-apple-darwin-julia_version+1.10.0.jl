@@ -10,7 +10,7 @@ function __init__()
     JLLWrappers.@generate_init_header(libcxxwrap_julia_jll, OpenFHE_jll, LLVMOpenMP_jll)
     JLLWrappers.@init_library_product(
         libopenfhe_julia,
-        "lib/libopenfhe_julia.0.2.6.dylib",
+        "lib/libopenfhe_julia.0.2.7.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
