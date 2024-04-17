@@ -5,7 +5,7 @@ using libcxxwrap_julia_jll
 using OpenFHE_jll
 using LLVMOpenMP_jll
 JLLWrappers.@generate_wrapper_header("openfhe_julia")
-JLLWrappers.@declare_library_product(libopenfhe_julia, "libopenfhe_julia.so.0.2")
+JLLWrappers.@declare_library_product(libopenfhe_julia, "libopenfhe_julia.so.0.3")
 function __init__()
     JLLWrappers.@generate_init_header(libcxxwrap_julia_jll, OpenFHE_jll, LLVMOpenMP_jll)
     JLLWrappers.@init_library_product(
