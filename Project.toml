@@ -1,6 +1,6 @@
 name = "openfhe_julia_jll"
 uuid = "e5e97983-1b8c-50fe-92b7-0e05c8c202e2"
-version = "0.3.11+0"
+version = "0.4.0+0"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
@@ -14,7 +14,7 @@ LLVMOpenMP_jll = "1d63c593-3942-5779-bab2-d838dc0a180e"
 [compat]
 JLLWrappers = "1.7.0"
 julia = "1.10"
-OpenFHE_jll = "1.2.3"
-libcxxwrap_julia_jll = "0.13.0"
+OpenFHE_jll = "1.4.0"
+libcxxwrap_julia_jll = "0.14.4"
 Libdl = "< 0.0.1, 1"
 Artifacts = "< 0.0.1, 1"

@@ -5,12 +5,12 @@ using libcxxwrap_julia_jll
 using LLVMOpenMP_jll
 using OpenFHE_jll
 JLLWrappers.@generate_wrapper_header("openfhe_julia")
-JLLWrappers.@declare_library_product(libopenfhe_julia, "@rpath/libopenfhe_julia.0.3.dylib")
+JLLWrappers.@declare_library_product(libopenfhe_julia, "@rpath/libopenfhe_julia.0.4.dylib")
 function __init__()
     JLLWrappers.@generate_init_header(libcxxwrap_julia_jll, LLVMOpenMP_jll, OpenFHE_jll)
     JLLWrappers.@init_library_product(
         libopenfhe_julia,
-        "lib/libopenfhe_julia.0.3.11.dylib",
+        "lib/libopenfhe_julia.0.4.0.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
